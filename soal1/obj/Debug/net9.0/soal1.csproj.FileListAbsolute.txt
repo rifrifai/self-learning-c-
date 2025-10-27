@@ -1,0 +1,14 @@
+F:\Coding\c#\bca\soal1\bin\Debug\net9.0\soal1.exe
+F:\Coding\c#\bca\soal1\bin\Debug\net9.0\soal1.deps.json
+F:\Coding\c#\bca\soal1\bin\Debug\net9.0\soal1.runtimeconfig.json
+F:\Coding\c#\bca\soal1\bin\Debug\net9.0\soal1.dll
+F:\Coding\c#\bca\soal1\bin\Debug\net9.0\soal1.pdb
+F:\Coding\c#\bca\soal1\obj\Debug\net9.0\soal1.GeneratedMSBuildEditorConfig.editorconfig
+F:\Coding\c#\bca\soal1\obj\Debug\net9.0\soal1.AssemblyInfoInputs.cache
+F:\Coding\c#\bca\soal1\obj\Debug\net9.0\soal1.AssemblyInfo.cs
+F:\Coding\c#\bca\soal1\obj\Debug\net9.0\soal1.csproj.CoreCompileInputs.cache
+F:\Coding\c#\bca\soal1\obj\Debug\net9.0\soal1.dll
+F:\Coding\c#\bca\soal1\obj\Debug\net9.0\refint\soal1.dll
+F:\Coding\c#\bca\soal1\obj\Debug\net9.0\soal1.pdb
+F:\Coding\c#\bca\soal1\obj\Debug\net9.0\soal1.genruntimeconfig.cache
+F:\Coding\c#\bca\soal1\obj\Debug\net9.0\ref\soal1.dll
