@@ -12,7 +12,7 @@ class Program
         myAccount.Deposit(500000);
         myAccount.Withdraw(50000);
         myAccount.Withdraw(50000);
-        Console.WriteLine($"Saldo anda sisa {myAccount.Balance:N0}");
+        Console.WriteLine($"Saldo anda sisa Rp.{myAccount.Balance:N0}");
 
         /* Inheritance and Polymorphism*/
         // using abstract class

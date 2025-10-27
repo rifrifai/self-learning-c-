@@ -12,3 +12,4 @@ F:\Coding\c#\bca\soal1\obj\Debug\net9.0\refint\soal1.dll
 F:\Coding\c#\bca\soal1\obj\Debug\net9.0\soal1.pdb
 F:\Coding\c#\bca\soal1\obj\Debug\net9.0\soal1.genruntimeconfig.cache
 F:\Coding\c#\bca\soal1\obj\Debug\net9.0\ref\soal1.dll
+F:\Coding\c#\bca\soal1\obj\Debug\net9.0\soal1.sourcelink.json
