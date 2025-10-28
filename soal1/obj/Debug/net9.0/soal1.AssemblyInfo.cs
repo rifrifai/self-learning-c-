@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("soal1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e5fd1438c71c948f2ee8873f31f44c2e9e75955e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fe9e7931c62e5466b1752944b25c2b828e299f5d")]
 [assembly: System.Reflection.AssemblyProductAttribute("soal1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("soal1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
