@@ -28,9 +28,8 @@ public class Repository<T> : IRepository<T> where T : class
         await _dbSet.AddAsync(entity);
         await _context.SaveChangesAsync();
     }
-    public async Task<bool> PatchAsync(T entity)
+    public async Task<bool> PatchAsync()
     {
-        _dbSet.Update(entity);
         var result = await _context.SaveChangesAsync();
         return result > 0;
     }

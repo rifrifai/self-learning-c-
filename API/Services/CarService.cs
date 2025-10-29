@@ -32,17 +32,19 @@ public class CarService : ICarService
         await _carRepo.CreateAsync(newCar);
         return _mapper.Map<CarDto>(newCar);
     }
-    public async Task<bool> UpdateCarAsync(Guid id, PatchCarDto patchCarDto)
+    public async Task<CarDto?> UpdateCarAsync(Guid id, PatchCarDto patchCarDto)
     {
         var existingCar = await _carRepo.GetByIdAsync(id);
-        if (existingCar is null) return false;
+        if (existingCar is null) return null;
 
         // automapper akan mengupdate properti yang ada di patch ke existingCar
         _mapper.Map(patchCarDto, existingCar);
 
         // perbarui updatedat secara manual karena tidak ada di DTO
         existingCar.UpdatedAt = DateTime.UtcNow.AddHours(7);
-        return await _carRepo.PatchAsync(existingCar);
+        await _carRepo.PatchAsync();
+
+        return _mapper.Map<CarDto>(existingCar);
     }
     public async Task<bool> DeleteCarAsync(Guid id)
     {
