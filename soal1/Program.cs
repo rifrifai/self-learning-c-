@@ -31,7 +31,7 @@ class Program
         // SwapValue();
         // Star(3);
         // IsPrime(4);
-        // ReverseString();
+        ReverseString();
     }
 
     static void SwapValue()
@@ -82,7 +82,8 @@ class Program
     {
         string sapa = "Halo";
         Console.WriteLine(sapa);
-        sapa = new string(sapa.Reverse().ToArray());
+        // sapa = new string(sapa.Reverse().ToArray());
+        sapa = new string([.. sapa.Reverse()]);
         Console.WriteLine(sapa);
     }
 }
