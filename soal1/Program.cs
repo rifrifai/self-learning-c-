@@ -28,9 +28,9 @@ class Program
         Kucing kucing = new();
         kucing.Bersuara();
 
-        // SwapValue();
-        // Star(3);
-        // IsPrime(4);
+        SwapValue();
+        Star(3);
+        IsPrime(4);
         ReverseString();
     }
 
