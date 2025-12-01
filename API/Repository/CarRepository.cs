@@ -46,4 +46,24 @@ public class CarRepository : Repository<Car>, ICarRepository
             TotalCount = totalCount
         };
     }
+
+    public Task<CarDto?> GetCarByIdAsync(Guid id)
+    {
+        throw new NotImplementedException();
+    }
+
+    public Task<CarDto> CreateCarAsync(CreateCarDto createCarDto)
+    {
+        throw new NotImplementedException();
+    }
+
+    public Task<bool> DeleteCarAsync(Guid id)
+    {
+        throw new NotImplementedException();
+    }
+
+    public Task<CarDto?> UpdateCarAsync(Guid id, PatchCarDto patchCarDto)
+    {
+        throw new NotImplementedException();
+    }
 }
