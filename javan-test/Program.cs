@@ -34,7 +34,8 @@
     static void IsPalindrome(string text)
     {
         var reserved = new string(text.Reverse().ToArray());
-        Console.WriteLine(reserved);
+        Console.WriteLine($"before reserved: {text}");
+        Console.WriteLine($"after reserved: {reserved}");
         Console.WriteLine(text.Equals(reserved, StringComparison.OrdinalIgnoreCase));
     }
 
