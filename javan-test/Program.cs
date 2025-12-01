@@ -5,6 +5,7 @@
         FizzBuzz();
         IsPalindrome("bagas");
         LinqBasic();
+        HitungKarakter("ahmad tresna");
     }
 
     static void FizzBuzz()
@@ -46,5 +47,25 @@
         var result = numbers.Where(n => n % 2 == 1).OrderBy(n => n);
 
         Console.WriteLine(string.Join(", ", result));
+    }
+
+    static void HitungKarakter(string input)
+    {
+        Dictionary<char, int> frekuensi = [];
+        foreach (char c in input)
+        {
+            if (frekuensi.ContainsKey(c))
+            {
+                frekuensi[c]++;
+            } else
+            {
+                frekuensi[c] = 1;
+            }
+        }
+        // print dictionary
+        foreach(var item in frekuensi)
+        {
+            Console.WriteLine($"{item.Key}: {item.Value}");
+        }
     }
 }
