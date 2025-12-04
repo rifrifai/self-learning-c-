@@ -9,7 +9,7 @@ class WorkoutSession
 
 class Program
 {
-    static List<WorkoutSession> riwayatOlahraga = [];
+    static readonly List<WorkoutSession> riwayatOlahraga = [];
 
     static void Main()
     {
@@ -56,10 +56,12 @@ class Program
         int durasi = int.Parse(durasiInput!);
 
         // masukkan data ke dalam list
-        WorkoutSession sesiBaru = new();
-        sesiBaru.Tanggal = DateTime.Now;
-        sesiBaru.JenisOlahraga = nama!;
-        sesiBaru.DurasiMenit = durasi;
+        WorkoutSession sesiBaru = new()
+        {
+            Tanggal = DateTime.Now,
+            JenisOlahraga = nama!,
+            DurasiMenit = durasi
+        };
 
         riwayatOlahraga.Add(sesiBaru);
 
@@ -76,7 +78,8 @@ class Program
         } else
         {
             foreach (var item in riwayatOlahraga)
-            {
+            { 
+                // if(item.)
                 int kalori = item.DurasiMenit * 7;
 
                 Console.WriteLine($"-{item.Tanggal.ToShortDateString()}: {item.JenisOlahraga} selama {item.DurasiMenit} menit ({kalori} kalori) ");
